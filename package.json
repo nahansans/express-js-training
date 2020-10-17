@@ -10,6 +10,8 @@
   "author": "\"naufal hanif\"",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-formidable": "1.2.0",
+    "pg": "8.4.1"
   }
 }
