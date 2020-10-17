@@ -27,7 +27,7 @@ const users = [
 ]
 
 const getUsers = (request, response) => {
-    pool.query('SELECT * FROM users', (error, result) => {
+    pool.query('SELECT * FROM users', (error, results) => {
         if (error) {
             throw error
         }
